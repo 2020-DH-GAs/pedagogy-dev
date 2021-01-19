@@ -19,6 +19,12 @@ body {
 	padding:10px;
 }
 
+.Manus_sidebar {
+	grid-row: 2;
+	grid-column:1;
+	background: yellow;
+	color:black;
+}
 .banner {
 	grid-row:2;
 	grid-column:2;
