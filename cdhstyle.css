@@ -23,9 +23,9 @@ body {
 }
 
 .sidenav {
-    height: 100%;
+	grid-row: 1/5;
+	grid-column: 1;
     width: 125px;
-    position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
