@@ -29,7 +29,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-    background-color:#003DA5;
+	background-color:#003DA5;	
     overflow-x: hidden;
     padding: 20px
 }
@@ -43,6 +43,7 @@ body {
     background-color: #ddd;
     color: #FFFFFF;
   }
+
 .Blancas_sidebar {
 	grid-row: 2;
 	grid-column:3;

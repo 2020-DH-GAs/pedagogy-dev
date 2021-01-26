@@ -1,5 +1,5 @@
 body {
-	background-color:CadetBlue;
+	background-color:#8FD6BD;
 	text-align:left;
 	font-family:helvetica;
 	display: grid;
@@ -18,19 +18,27 @@ body {
 	text-align: left;
 	padding:10px;
 }
-
-.Manus_sidebar {
-	grid-row: 2;
-	grid-column:1;
-	background: yellow;
-	color:black;
+.sidenav {
+	grid-row: 1/5;
+	grid-column: 1;
+    width: 125px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	background-color:#003B5C;	
+    overflow-x: hidden;
+    padding: 20px
 }
-.Blancas_sidebar {
-	grid-row: 2;
-	grid-column:3;
-	background: green;
-	color:black;
-}
+.sidenav a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: #FFFFFF;
+  }
 .banner {
 	grid-row:2;
 	grid-column:2;
