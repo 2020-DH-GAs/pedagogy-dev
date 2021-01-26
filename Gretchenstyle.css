@@ -1,5 +1,5 @@
 body {
-	background-color:#8FD6BD;
+	background-color:#C8C9C7;
 	text-align:left;
 	font-family:helvetica;
 	display: grid;
@@ -60,7 +60,7 @@ footer {
 	grid-row:4;
 	grid-column:2;
 	border-radius: 25px;
-	background: #ED8B00;
+	background: #8FD6BD;
 	text-align: center;
 	padding: 20px;
 	width: 1000px;
