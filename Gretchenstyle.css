@@ -13,10 +13,13 @@ body {
 .colophon {
 	grid-row: 1;
 	grid-column:2;
-	background: black;
-	color: gray;
+	border-radius: 25px;
+	background: #53C3EE;
+	color:#FFFFFF;
 	text-align: left;
-	padding:10px;
+	padding:20px;
+    width: 1000px;
+	height: 25px;
 }
 .sidenav {
 	grid-row: 1/5;
@@ -25,7 +28,7 @@ body {
     z-index: 1;
     top: 0;
     left: 0;
-	background-color:#003B5C;	
+	background-color:#53C3EE;	
     overflow-x: hidden;
     padding: 20px
 }
@@ -57,7 +60,7 @@ footer {
 	grid-row:4;
 	grid-column:2;
 	border-radius: 25px;
-	background:blue;
+	background: #ED8B00;
 	text-align: center;
 	padding: 20px;
 	width: 1000px;
