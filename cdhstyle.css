@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color:black;
+	background-color:#003B5C;
 	text-align:left;
 	font-family:helvetica;
 	display: grid;
@@ -42,12 +42,12 @@ li {
 .colophon {
 	grid-row: 1/3;
 	grid-column: 1/4;
-	color: Black;
+	color: #003B5C;
 	text-align: left;
 	background-image: url(images/skyline.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;	
-	background-color: black;
+	background-color: #003B5C;
 }
 
 .banner-text {
@@ -147,7 +147,7 @@ li {
 	background-repeat: no-repeat;
 	background-size: cover;	
 	height: 400px;
-	background-color: black;
+	background-color: #003B5C;
 
 }
 
