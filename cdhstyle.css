@@ -40,12 +40,17 @@ li {
 /* Sections. Note that content must be assigned to a column and a row in the grid*/
 
 .colophon {
-	grid-row: 1;
+	grid-row: 1/3;
 	grid-column: 1/4;
 	background: white;
 	color: Black;
 	text-align: left;
 	height: 50px;
+	background-image: url(images/skyline.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+	height: 100px;
+	background-color: black;
 }
 
 
@@ -58,7 +63,7 @@ li {
 }
 
 .nav, .searchbar {
-	background-color: black;
+	background-color: transparent;
 }
 
 .searchbar {
@@ -158,10 +163,18 @@ li {
 .main-content {
 	grid-row:4;
 	grid-column:2;
-	padding-left: 50px;
-	padding-right: 50px;
 	padding: 40px;
+
 }
+
+@media (max-width: 600px){
+	.main-content {
+		grid-column:1/4;
+        padding: 10px;
+        z-index: 1;
+    	}
+}
+
 
 .coursename {
 	text-align:center;
