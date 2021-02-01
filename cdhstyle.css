@@ -102,7 +102,7 @@ li {
 }
 
 .searchbar li a:hover, .dropdown:hover .dropbtn {
-  background-color: red;
+  background-color: #003B5C;
 }
 
 .searchbar li.dropdown {
