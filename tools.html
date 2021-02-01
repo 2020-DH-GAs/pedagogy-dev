@@ -4,34 +4,57 @@
 <head>
 	<link rel="stylesheet" href="cdhstyle.css">
 <meta charset="UTF-8">
-<title>Page Title</title>
-
-<!-- Another way to style the page is to put your style instructions in the style section  
-Separting the style commands from the content helps to make your code easier to read-->
-
+<title>Walter J. Ong Center for Digital Humanities</title>
 </head>
+
+<style>
+	.banner {
+		background-image: url('images/digitools.png');
+	}
+</style>
 
 <body>
 
 
 <!-- One of the basic ways of structuring your code is to place it with a 'div', or division. You can label a div by assigning it to a class -->
 
-<div class="colophon">Saint Louis University <span style="float:right;">v1:2021-01-08</span></div>
+<div class="colophon">
+	<a href="https://www.slu.edu/arts-and-sciences/ong-center/index.php" target="_blank"><img src="images/cropped-logo-dark.png" alt="CDH Logo" height="50"></a>
+	<span style="float:right;">v2:2021-01-29</span></div>
+
+<div class="banner-text"><h1>Digital Humanities Tools and Guides</h1>
+<h3>Spring 2021</h3></div>
 
 <div class="banner">
-	<img src="images/digitools.png" alt="technology" style="width:1000px;height:300px;">
-	<h1 class="coursename">Walter J. Ong Center for Digital Humanities</h1>
-	<div class="date">Spring 2021</div>
-	<div class="title">Digital Humanities Tools</div>
 </div>
-<div class="sidenav"><h2>Menu</h2>
-<a href="main.html">Homepage</a>
-<a href="Page_B.html">Another Course</a>
-</div>
+	
+	<div class="nav"></div>
+
+	<div class="searchbar">
+	<ul>
+		<li><a href="index.html">Home</a></li>
+		<li><a href="talks.html">Talks</a></li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Guides</a>
+			<div class="dropdown-content">
+			  <a href="#">Link 1</a>
+			  <a href="#">Link 2</a>
+			  <a href="#">Link 3</a>
+			</div>
+		</li>
+		<li class="dropdown">
+			<a href="javascript:void(0)" class="dropbtn">Projects</a>
+			<div class="dropdown-content">
+			  <a href="WSTD3800_2021_Spring.html">WSTD3800-01/POLS 3880-01</a>
+			  <a href="#">Link 2</a>
+			  <a href="#">Link 3</a>
+			</div>
+		</li>
+	</ul>
+	</div>
 
 <div class="main-content">
-	<div id="boxes">
-	<div id="leftbox"> <h2>Examples:</h2>
+	<h2>Examples:</h2>
 		<div class="typesofprojects">
 			<ul>
 				<li><a href= "https://wordpress.com/blog/">WordPress</a> <br> Create blog posts and publish them, allows interaction with other bloggers </li>
@@ -46,8 +69,7 @@ Separting the style commands from the content helps to make your code easier to 
 	
 			</ul>
 	</div>
-</div>
-<div id="rightbox">
+
 	<h2> How to Guides:</h2>
 		<div class="typesofprojects">
 			<ul>
@@ -61,7 +83,11 @@ Separting the style commands from the content helps to make your code easier to 
 			</ul>
 	</div>
 </div>
-</div>
+
+<div class="sidebarleft"></div>
+
+<div class="sidebarright"></div>
+
 
 <footer> 
 <h5>Website created by the Saint Louis University Center for Digital Humanities</h5>
