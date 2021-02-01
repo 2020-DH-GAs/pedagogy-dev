@@ -1,0 +1,110 @@
+body {
+	background-color:#FFFFFF;
+	text-align:left;
+	font-family:helvetica;
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr;
+	grid-column-gap: 5%;
+	grid-row-gap: 50px;
+}
+
+/*Each section of the content must be assigned to a column and a row in the grid*/
+
+.colophon {
+	grid-row: 1;
+    grid-column:2;
+    border-radius: 25px;
+	background: #003DA5;
+	color: #FFFFFF;
+	text-align: left;
+    padding:10px;
+    width: 1000px;
+	height: 25px;
+}
+
+.sidenav {
+	grid-row: 1/5;
+	grid-column: 1;
+    width: 125px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+	background-color:#003DA5;	
+    overflow-x: hidden;
+    padding: 20px
+}
+.sidenav a {
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    display: block;
+  }
+  .sidenav a:hover {
+    background-color: #ddd;
+    color: #FFFFFF;
+  }
+
+.Blancas_sidebar {
+	grid-row: 2;
+	grid-column:3;
+	background: green;
+	color:black;
+}
+.banner {
+	grid-row:2;
+	grid-column:2;
+}
+
+.main-content {
+	grid-row:3;
+	grid-column:2;
+}
+#leftbox {
+	grid-row:3;
+	grid-column:2;
+	float: left;
+	width: 50%;
+	height:fit-content;
+}
+#rightbox {
+	grid-row:3;
+	grid-column:2;
+	float: right;
+	width: 50%;
+	height:fit-content;
+}
+li {
+	padding: 5px;
+}
+
+footer {
+	grid-row:4;
+	grid-column:2;
+	border-radius: 25px;
+	background:#003DA5;
+	text-align: center;
+	padding: 20px;
+	width: 1000px;
+	height: 50px;
+	color:#FFFFFF;
+	background-image: url("images/cropped-logo-dark.png");
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: contain;
+}
+
+.coursename {
+	text-align:center;
+	padding:20px;
+}
+
+.date {
+	text-align:right;
+	font-size:150%;
+}
+
+.title {
+	text-align:center; 
+	font-size:300%;
+	padding:20px;
+}
