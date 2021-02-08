@@ -262,10 +262,19 @@ footer a:link {
 
 .lowerfooter {
 	grid-row:6;
-	grid-column:1/4;
+	grid-column:2;
 	background:#003B5C;
 	text-align: center;
 	color: #FFFFFF;
 	padding: 50px;
+}
 
+.footertext {
+ padding: 3.75%;
+ display: grid;
+ grid-row:5;
+ grid-column:2;
+ grid-template-columns: 30% 30% 30%;
+ grid-column-gap: 5%;
+ grid-row-gap: 50px;
 }
