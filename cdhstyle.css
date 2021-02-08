@@ -40,38 +40,45 @@ img {
 	padding: 5px;
 }
 
+/* hyperlinks */
+
+a:link, a:visited, a:hover, a:active {
+	background-color: transparent;
+}
+
 a:link {
 	color: #003B5C;
-	background-color: transparent;
 	text-decoration: none;
   }
-  a:visited {
+
+a:visited {
 	color: #53C3EE;
-	background-color: transparent;
 	text-decoration: none;
   }
-  a:hover {
+
+a:hover {
 	color: #ED8D00;
-	background-color: transparent;
 	text-decoration: underline;
   }
-  a:active {
+
+a:active {
 	color: #FFC72C;
-	background-color: transparent;
 	text-decoration: underline;
   }
+
 /* Sections. Note that content must be assigned to a column and a row in the grid*/
 
 .colophon {
-	grid-row: 1/3;
+	grid-row: 1;
 	grid-column: 1/4;
 	color: #003B5C;
 	text-align: left;
 	background-image: url(images/skyline.jpg);
-	min-height: 200px;
+	max-height: 200px;
 	background-repeat: no-repeat;
-	background-size: 100%;	
+	background-size: 100% auto;	
 	background-color: #003B5C;
+	background-origin: content-box;
 }
 
 .banner-text {
@@ -84,20 +91,23 @@ a:link {
 	color: #001c4d;
 }
 
+
 /*Navigation Bar*/
 
 .nav {
 	grid-row:2;
 	grid-column:1/4;
-	background-color: #003B5C;
-}
+	background-color:transparent;
+/*	background-color: #003B5C;
+*/}
 
 .searchbar {
 	grid-row: 2;
 	text-align: center;
 	grid-column: 2;
 	color: white;
-	background-color: #003B5C;
+	background-color:transparent;
+/*	background-color: #003B5C;*/
 }
 
 /*Code here has been copy and pasted from ---  https://www.w3schools.com/Css/css_navbar_horizontal.asp */
@@ -257,19 +267,23 @@ footer {
 	background-size: contain;
 	background-position: center;	
 }
+
+.footertext a:link, a:visited, a:hover {
+	background-color: transparent;
+}
+
 .footertext a:link {
 	color: #53C3EE;
-	background-color: transparent;
 	text-decoration: none;
   }
- .footertext a:visited {
+
+.footertext a:visited {
 	color: #8FD6BD;
-	background-color: transparent;
 	text-decoration: none;
   }
- .footertext a:hover {
+
+.footertext a:hover {
 	color: #ED8D00;
-	background-color: transparent;
 	text-decoration: underline;
   }
 
