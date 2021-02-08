@@ -40,6 +40,26 @@ img {
 	padding: 5px;
 }
 
+a:link {
+	color: #53C3EE;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:visited {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:hover {
+	color: red;
+	background-color: transparent;
+	text-decoration: underline;
+  }
+  a:active {
+	color: yellow;
+	background-color: transparent;
+	text-decoration: underline;
+  }
 /* Sections. Note that content must be assigned to a column and a row in the grid*/
 
 .colophon {
@@ -212,7 +232,7 @@ img {
 footer {
 	grid-row:5;
 	grid-column:1/4;
-	background:#53C3EE;
+	background:#003B5C;
 	text-align: center;
 	color: #FFFFFF;
 	padding: 50px;
@@ -226,11 +246,21 @@ footer {
 	background-size: contain;
 	background-position: center;	
 }
+footer a:link {
+	color: #53C3EE;
+	background-color: transparent;
+	text-decoration: none;
+  }
+  a:visited {
+	color: green;
+	background-color: transparent;
+	text-decoration: none;
+  }
 
 .lowerfooter {
 	grid-row:6;
 	grid-column:1/4;
-	background:#53C3EE;
+	background:#003B5C;
 	text-align: center;
 	color: #FFFFFF;
 	padding: 50px;
