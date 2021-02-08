@@ -226,6 +226,9 @@ a:link {
 	grid-row: 4/5;
 }
 
+.footer, .footertext {
+	color: #FFFFFF
+}
 
 footer {
 	grid-row:5;
@@ -236,6 +239,16 @@ footer {
 	padding: 50px;
 }
 
+.footertext {
+	padding: 3.75%;
+	display: grid;
+	grid-row:5;
+	grid-column:2;
+	grid-template-columns: 30% 30% 30%;
+	grid-column-gap: 5%;
+	grid-row-gap: 50px;
+   }
+
 .footer-logo {
 	grid-row:5;
 	grid-column:3;
@@ -244,17 +257,17 @@ footer {
 	background-size: contain;
 	background-position: center;	
 }
-footer a:link {
+.footertext a:link {
 	color: #53C3EE;
 	background-color: transparent;
 	text-decoration: none;
   }
- footer a:visited {
+ .footertext a:visited {
 	color: #8FD6BD;
 	background-color: transparent;
 	text-decoration: none;
   }
- footer a:hover {
+ .footertext a:hover {
 	color: #ED8D00;
 	background-color: transparent;
 	text-decoration: underline;
@@ -269,12 +282,3 @@ footer a:link {
 	padding: 50px;
 }
 
-.footertext {
- padding: 3.75%;
- display: grid;
- grid-row:5;
- grid-column:2;
- grid-template-columns: 30% 30% 30%;
- grid-column-gap: 5%;
- grid-row-gap: 50px;
-}
