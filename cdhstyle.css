@@ -10,7 +10,7 @@ body {
 	text-align:left;
 	font-family:helvetica;
 	display: grid;
-	grid-template-columns: 1fr 2fr 1fr;
+	grid-template-columns: 1fr 4fr 1fr;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -198,7 +198,7 @@ a:active {
 	grid-row:4;
 	grid-column:2;
 	padding: 50px;
-	line-height: 2.5;
+	line-height: 1.5;
 
 }
 
