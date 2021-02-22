@@ -268,17 +268,17 @@ footer {
 	background-color: transparent;
 }
 
-.footertext, .lowerfooter a:link {
+.footertext a:link {
 	color: #53C3EE;
 	text-decoration: none;
   }
 
-.footertext, .lowerfooter a:visited {
+.footertext a:visited {
 	color: #f7931e;
 	text-decoration: none;
   }
 
-.footertext, .lowerfooter a:hover {
+.footertext a:hover {
 	color: #f7931e;
 	text-decoration: underline;
   }
@@ -291,3 +291,22 @@ footer {
 	color: #FFFFFF;
 	padding: 50px;
 }
+
+.lowerfooter a:link, a:visited, a:hover {
+	background-color: transparent;
+}
+
+.lowerfooter a:link {
+	color: #53C3EE;
+	text-decoration: none;
+  }
+
+.lowerfooter a:visited {
+	color: #f7931e;
+	text-decoration: none;
+  }
+
+.lowerfooter a:hover {
+	color: #f7931e;
+	text-decoration: underline;
+  }
