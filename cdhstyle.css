@@ -245,27 +245,6 @@ footer {
 	padding: 50px;
 }
 
-footer a:link, a:visited, a:hover {
-	background-color: transparent;
-}
-
-footer a:link {
-	color: #53C3EE;
-	text-decoration: none;
-  }
-
-footer a:visited {
-	color: #f7931e;
-	text-decoration: none;
-  }
-
-footer a:hover {
-	color: #f7931e;
-	text-decoration: underline;
-  }
-
-
-
 .footertext {
 	padding: 3.75%;
 	display: grid;
@@ -285,21 +264,21 @@ footer a:hover {
 	background-position: center;	
 }
 
-.footertext a:link, a:visited, a:hover {
+.footertext, .lowerfooter a:link, a:visited, a:hover {
 	background-color: transparent;
 }
 
-.footertext a:link {
+.footertext, .lowerfooter a:link {
 	color: #53C3EE;
 	text-decoration: none;
   }
 
-.footertext a:visited {
+.footertext, .lowerfooter a:visited {
 	color: #f7931e;
 	text-decoration: none;
   }
 
-.footertext a:hover {
+.footertext, .lowerfooter a:hover {
 	color: #f7931e;
 	text-decoration: underline;
   }
@@ -312,4 +291,3 @@ footer a:hover {
 	color: #FFFFFF;
 	padding: 50px;
 }
-
