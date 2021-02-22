@@ -40,6 +40,9 @@ img {
 	padding: 5px;
 }
 
+.paragraph-image {
+	float: right;
+}
 /* hyperlinks */
 
 a:link, a:visited, a:hover, a:active {
