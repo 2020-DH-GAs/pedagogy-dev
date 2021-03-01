@@ -84,7 +84,15 @@ a:active {
 	background-origin: content-box;
 }
 
+.accessibility {
+	left: -999px;
+	position: absolute;
+	background-color: white;
+}
 
+.skip-main {
+	
+}
 /*Navigation Bar*/
 
 .nav {
